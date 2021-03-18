@@ -1,0 +1,1 @@
+curl -s https://raw.githubusercontent.com/ryantibs/tibbles-group/main/latex/ryantibs.tex > ${1-.}/ryantibs.tex

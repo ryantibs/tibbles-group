@@ -1,0 +1,15 @@
+if [ -z "$1" ]
+then echo "Missing input folder name"
+else 
+  mkdir $1
+  mkdir $1/code
+  mkdir $1/notes
+  mkdir $1/paper	
+  mkdir $1/refs
+  ./cp-bib $1/notes
+  ./cp-bib $1/paper
+  ./cp-tex $1/notes
+  ./cp-tex $1/paper
+	cp cp-bib $1
+	cp cp-tex $1
+fi 
