@@ -5,11 +5,16 @@ else
   mkdir $1/code
   mkdir $1/notes
   mkdir $1/paper	
+  mkdir $1/paper/fig
+  mkdir $1/paper/arxiv
   mkdir $1/refs
   ./cp-bib $1/notes
-  ./cp-bib $1/paper
   ./cp-tex $1/notes
+  ./cp-bib $1/paper
   ./cp-tex $1/paper
-	cp cp-bib $1
-	cp cp-tex $1
+  cp cp-bib $1/notes
+  cp cp-tex $1/notes
+  cp cp-bib $1/paper
+  cp cp-tex $1/paper
+  cp cp-arxiv $1
 fi 

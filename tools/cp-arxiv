@@ -1,0 +1,4 @@
+cp ryantibs.tex arxiv/
+cp paper.tex paper.bbl arxiv/
+cp fig/* arxiv/fig/
+zip -r arxiv.zip arxiv
