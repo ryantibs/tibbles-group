@@ -19,5 +19,4 @@ else
   cp cp-tex $1/paper
   cp cp-fig $1/paper
   cp cp-arxiv $1/paper
-  cp cp-paper $1/paper
 fi 
