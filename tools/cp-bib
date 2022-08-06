@@ -1,1 +1,1 @@
-curl -s https://raw.githubusercontent.com/ryantibs/tibbles-group/main/latex/ryantibs.bib > ${1-.}/ryantibs.bib
+curl -s -H "Cache-Control: no-cache" https://raw.githubusercontent.com/ryantibs/tibbles-group/main/latex/ryantibs.bib > ${1-.}/ryantibs.bib
