@@ -6,7 +6,7 @@ Resources for Ryan Tibshirani's research group.
 
 This subfolder has various latex files and templates. Main files: 
 
-- `ryantibs.bib`: bib file for all Ryan's papers.
+- `ryantibs.bib`: bib file for all of Ryan's papers.
 - `ryantibs.tex`: latex style file for Ryan's papers. 
 - `template.tex`: latex template for a paper. You can see how it utilizes
   `ryantibs.tex` and `ryantibs.bib`.
