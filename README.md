@@ -28,8 +28,9 @@ This subfolder has various command line (Mac/Linux) tools. Main files:
   ```
   for our new amazing project on Lentil Filtering. You can see how it populates
   a directory structure and fills it with various templates, and tools. 
-- `cp-bib`: grab the latest bib file from this git repo. Typically, to be called
-  within the `notes` of `paper` subfolders of a given project folder. 
+- `cp-bib`: replace the local`ryantibs.bib` file with the latest one from the
+  git repo. Typically, to be called within the `notes` or `paper` subfolders of
+  a given project folder. 
 - `cp-arxiv`: copy all the paper files into an `arxiv` subfolder, and zip it
   (for easy submission to arxiv). To be called within the `paper` subfolder of a
   given project folder.
