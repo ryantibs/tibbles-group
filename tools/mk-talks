@@ -1,0 +1,3 @@
+pdflatex "\def\PauseFlag{} \input{talk}"
+mv talk.pdf talk-pause.pdf
+pdflatex talk

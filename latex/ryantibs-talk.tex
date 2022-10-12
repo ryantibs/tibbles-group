@@ -1,45 +1,21 @@
+% Beamer settings
+\setbeamertemplate{frametitle}[default][center] %Centers the frame title.
+\setbeamertemplate{navigation symbols}{} %Removes navigation symbols.
+\setbeamertemplate{itemize item}[circle] %Makes items circles.
+\setbeamertemplate{footline}{\raisebox{5pt}{\makebox[\paperwidth]
+    {\hfill\makebox[10pt]{\scriptsize\insertframenumber}}}} %Adds page numbers.
+
 % Packages
 \usepackage{amssymb,amsmath,amsthm,bbm}
 \usepackage{verbatim,float,url,dsfont}
 \usepackage{graphicx,subfigure,psfrag}
 \usepackage{algorithm,algorithmic}
 \usepackage{mathtools,enumitem}
+\usepackage{fancybox}
 \usepackage{multirow}
-
-\usepackage[colorlinks=true,citecolor=blue,urlcolor=blue,linkcolor=blue]{hyperref}
-\usepackage[margin=1in]{geometry}
-\usepackage[round]{natbib}
-
-\usepackage[utf8]{inputenc} % allow utf-8 input
-\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
-\usepackage{booktabs}       % professional-quality tables
-\usepackage{nicefrac}       % compact symbols for 1/2, etc.
-\usepackage{microtype}      % microtypography
-
-\ifdefined\NoTimes % dont use times
-\else
-\usepackage{times} % use times font
-\fi
-
-% Theorems and such
-\newtheorem{theorem}{Theorem}
-\newtheorem{lemma}{Lemma}
-\newtheorem{corollary}{Corollary}
-\newtheorem{proposition}{Proposition}
-\theoremstyle{definition}
-\newtheorem{remark}{Remark}
-\newtheorem{definition}{Definition}
-
-% Assumption
-\newtheorem*{assumption*}{\assumptionnumber}
-\providecommand{\assumptionnumber}{}
-\makeatletter
-\newenvironment{assumption}[2]{
-  \renewcommand{\assumptionnumber}{Assumption #1#2}
-  \begin{assumption*}
-  \protected@edef\@currentlabel{#1#2}}
-{\end{assumption*}}
-\makeatother
+\usepackage{microtype}
+\usepackage{nicefrac}      
+\usepackage{xcolor}
 
 % Widebar
 \makeatletter
@@ -67,6 +43,7 @@
 \newcommand{\minimize}{\mathop{\mathrm{minimize}}}
 \newcommand{\maximize}{\mathop{\mathrm{maximize}}}
 \newcommand{\st}{\mathop{\mathrm{subject\,\,to}}}
+\newcommand{\Hrule}{\rule{\linewidth}{0.2pt}}
 
 % Shortcuts
 \def\R{\mathbb{R}}
@@ -118,3 +95,14 @@
 \def\cX{\mathcal{X}}
 \def\cY{\mathcal{Y}}
 \def\cZ{\mathcal{Z}}
+
+% Colors
+\def\red{\color[rgb]{0.8,0,0}}
+\def\white{\color[rgb]{1,1,1}}
+\def\blue{\color[rgb]{0,0,0.7}}
+\def\green{\color[rgb]{0,0.4,0}}
+\def\gray{\color[rgb]{0.5,0.5,0.5}}
+\def\orange{\color[rgb]{1.0,0.6,0}}
+\def\purple{\color[rgb]{0.6,0.1,0.9}}
+\def\ggred{\color[rgb]{0.9,0.3,0.4}}
+\def\ggblue{\color[rgb]{0.1,0.6,0.9}}
