@@ -5,6 +5,7 @@
 \usepackage{algorithm,algorithmic}
 \usepackage{mathtools,enumitem}
 \usepackage{multirow}
+\usepackage{ragged2e}
 
 \usepackage[colorlinks=true,citecolor=blue,urlcolor=blue,linkcolor=blue]{hyperref}
 \usepackage[margin=1in]{geometry}
@@ -13,12 +14,15 @@
 \usepackage[utf8]{inputenc} % allow utf-8 input
 \usepackage[T1]{fontenc}    % use 8-bit T1 fonts
 \usepackage{booktabs}       % professional-quality tables
-\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{nicefrac}         % compact symbols for 1/2, etc.
 \usepackage{microtype}      % microtypography
 
-\ifdefined\NoTimes % dont use times
-\else
+\ifdefined\TimesFont 
 \usepackage{times} % use times font
+\fi
+
+\ifdefined\ParSkip 
+\usepackage{parskip} % use par skip
 \fi
 
 % Theorems and such
