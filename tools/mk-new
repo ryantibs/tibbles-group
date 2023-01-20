@@ -19,4 +19,4 @@ else
   cp cp-bib $1/paper
   cp cp-fig $1/paper
   cp cp-arxiv $1/paper
-fi 
+fi
