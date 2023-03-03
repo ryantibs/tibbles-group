@@ -1,0 +1,4 @@
+NAME="GOES-HERE"
+cp talk.pdf ../../${NAME}.pdf
+cp talk-pause.pdf ../../pdf/${NAME}-pause.pdf
+cp talk.pdf ~/Dropbox/www/talks/${NAME}.pdf
