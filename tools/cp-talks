@@ -1,4 +1,0 @@
-NAME="GOES-HERE"
-cp talk.pdf ../../${NAME}.pdf
-cp talk-pause.pdf ../../pdf/${NAME}-pause.pdf
-scp talk.pdf ryantibs@cetus.stat.cmu.edu:~/public_html/talks/${NAME}.pdf
