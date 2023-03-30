@@ -67,46 +67,49 @@
 }
 \makeatother
 
-% Min and max
-\newcommand{\argmin}{\mathop{\mathrm{argmin}}}
-\newcommand{\argmax}{\mathop{\mathrm{argmax}}}
-\newcommand{\minimize}{\mathop{\mathrm{minimize}}}
-\newcommand{\maximize}{\mathop{\mathrm{maximize}}}
-\newcommand{\st}{\mathop{\mathrm{subject\,\,to}}}
+% Min and max 
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\minimize}{minimize}
+\DeclareMathOperator*{\maximize}{maximize}
+\DeclareMathOperator*{\find}{find}
+\DeclareMathOperator{\st}{subject\,\,to}
 
-% Shortcuts
+% Other operators
+\DeclareMathOperator{\Cov}{Cov}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\dm}{dim}
+\DeclareMathOperator{\col}{col}
+\DeclareMathOperator{\row}{row}
+\DeclareMathOperator{\nul}{null}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\nuli}{nullity}
+\DeclareMathOperator{\spa}{span}
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\aff}{aff}
+\DeclareMathOperator{\conv}{conv}
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\df}{df}
+
+% Other shortcuts 
 \def\R{\mathbb{R}}
 \def\C{\mathbb{C}}
-\def\Z{\mathbb{Z}}
-\def\N{\mathbb{N}}
 \def\E{\mathbb{E}}
 \def\P{\mathbb{P}}
-\def\T{\mathsf{T}}
-\def\Cov{\mathrm{Cov}}
-\def\Var{\mathrm{Var}}
-\def\indep{\perp\!\!\!\perp}
-\def\th{^{\text{th}}}
-\def\tr{\mathrm{tr}}
+\def\half{\frac{1}{2}}
 \def\df{\mathrm{df}}
-\def\dim{\mathrm{dim}}
-\def\col{\mathrm{col}}
-\def\row{\mathrm{row}}
-\def\nul{\mathrm{null}}
-\def\rank{\mathrm{rank}}
-\def\nuli{\mathrm{nullity}}
-\def\spa{\mathrm{span}}
-\def\sign{\mathrm{sign}}
-\def\supp{\mathrm{supp}}
-\def\diag{\mathrm{diag}}
-\def\aff{\mathrm{aff}}
-\def\conv{\mathrm{conv}}
-\def\dom{\mathrm{dom}}
 \def\hy{\hat{y}}
 \def\hf{\hat{f}}
 \def\hmu{\hat{\mu}}
 \def\halpha{\hat{\alpha}}
 \def\hbeta{\hat{\beta}}
 \def\htheta{\hat{\theta}}
+\def\indep{\perp\!\!\!\perp}
+\def\th{^{\textnormal{th}}}
+
 \def\cA{\mathcal{A}}
 \def\cB{\mathcal{B}}
 \def\cD{\mathcal{D}}
