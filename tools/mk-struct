@@ -1,7 +1,6 @@
 if [ -z "$1" ]
 then echo "Missing input folder name"
 else 
-  mkdir $1
   mkdir $1/code
   mkdir $1/code/fig
   mkdir $1/notes
