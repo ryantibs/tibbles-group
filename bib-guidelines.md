@@ -1,11 +1,14 @@
 # Bib Guidelines
 
 These are a set of guidelines for the formatting in bib files, particularly
-`general.bib` in the tibbles group repo. These are not "official" in any way, 
-they're just my opinion and how I like to maintain the bib files.
+`general.bib` in the tibbles group repo. These are not "officia rulesl" in any
+way, they're just my opinion and how I like to maintain the bib files. The
+general rationale is that these are supposed to represent balance between
+something that is simple and easy to maintain, and close to traditional
+conventions. 
 
 General note: for my cite keys, regardless of the type of entry (journal paper,
-conference paper, etc.) I always use the following structure:
+conference paper, etc.) I use the following structure:
 
 ```
 (author-last-name)(year)(title-first-word)
@@ -37,10 +40,11 @@ entry is:
 Notes:
 
 - I often go to great lengths trying to find an author's first name. Don't
-  settle for `G. Schwartz`. Sometimes you will hit a dead end. It's ok. 
+  settle for `G. Schwartz`. Sometimes you will hit a dead end, it's ok! (I have 
+  had to give up a few times with older Russian papers ...)
 - Middle initials can be used in place of middle names (just do this based on
-  whether they're used in the publication itself). Always use a period: `Ryan
-  J. Tibshirani`, and not `Ryan J Tibshirani`.
+  whether they're used in the publication itself). Use a period: `Ryan
+  J. Tibshirani`, and not `Ryan J Tibshirani`. 
 - *Personal note: please always use my middle initial, helps distinguish from
   that other Tibshirani!* 
 - The `title` field will be usually translated into "initial caps" style (only
