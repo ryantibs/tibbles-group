@@ -91,36 +91,23 @@ Notes:
 ## Books
 
 Books are BibTex type `@book`. The standard "must-have" fields are: `author`,
-`title`, `publisher`, `year`. 
+`title`, `publisher`, `year`. Here's an example: 
 
 ```
 @book{hastie2009elements,
-	author = {Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome},
-	date-modified = {2023-12-12 19:12:48 -0800},
+	author = {Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome}, 
+	title = {The Elements of Statistical Learning: Data Mining, Inference and Prediction},
 	edition = {second},
 	publisher = {Springer},
-	title = {The Elements of Statistical Learning: Data Mining, Inference and Prediction},
-	year = 2009}
+	year = {2009}}
 ```
 
 Notes:
-- The paper title goes in `title` and the conference name goes in `booktitle`.
-- The style for the conference name is a bit tricky/ambiguous, but here's what I
-  use, for consistency:
-    * NeurIPS: `Advances in Neural Information Processing Systems`.
-    * ICML: `Proceedings of the International Conference on Machine Learning`.
-    * AISTATS: `Proceedings of the International Conference on Artificial
-      Intelligence and Statistics`.
-  And so on. Basically, the default is to prepend "Proceedings of " unless the
-  conference specifically has some different way of suggesting formatting as
-  part of its own bib examples or documentation, like NeurIPS. I never use the
-  number (volume) of the conference in the name; as in "Proceedings of the 
-  Thirteenth ...".
-- You don't need anything else; for example, I never include `volume` or `pages` 
-  or `publisher` or `editors`. Keep it simple! (Virtually all of these
-  conference proceedings are nicely-catalogued and available for free online so
-  the paper name and year is enough for people to find it.) 
-
+- The book title goes in `title`. This field is field is usually preserved as-is
+  in terms of capitalization; make sure to use "title caps".
+- You can include `edition` if the book you're referencing is not the first
+  edition. Beyond that, you don't need anything else, like `address` or anything
+  like that. Keep it simple!
 
 ## Papers appearing in a book or special collection
 
@@ -140,7 +127,26 @@ Papers appearing as part of a book or special collection are BibTex type
 
 Notes:
 - The paper title goes in `title` and the book title goes in `booktitle`.
-- Because this is a book, include the `publisher` field. Always try to include
-  `pages` if you can find the page range.
+- Because this is a book, include the `publisher` field. Try to include `pages`
+  if you can find the page range. 
 - You don't need anything else; for example, I don't include editors' names in 
-  the`editor`field. 
+  the`editor`field. Keep it simple!
+  
+## Unpublished papers
+
+Papers that are unpublished (typically on arXiv) are BibTex type `@unpublished`.
+The standard "must-have" fields are `author`, `title`, `note`, `year`. Here's an
+example:
+
+```
+@unpublished{montanari2023sampling,
+	author = {Andrea Montanari},
+	note = {arXiv: 2305.10690},
+	title = {Sampling, diffusions, and stochastic localization},
+	year = {2023}}
+```
+
+Notes:
+- Everything as usual, and the `note` field refers to where you can find it. For
+  arXiv papers, I just put the identifier (same with bioRxiv, medRxiv, HAL, and
+  so on). 
