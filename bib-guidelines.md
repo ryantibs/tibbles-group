@@ -5,11 +5,13 @@ These are a set of guidelines for the formatting in bib files, particularly
 they're just my opinion and how I like to maintain the bib files.
 
 General note: for my cite keys, regardless of the type of entry (journal paper,
-conference paper, etc.) I always use:
+conference paper, etc.) I always use the following structure:
 
 ```
-{author-last-name}{year}{title-first-word}
+(author-last-name)(year)(title-first-word)
 ```
+
+as in `tibshirani2012degrees`.
 
 I maintain my bib files with [BibDesk](https://bibdesk.sourceforge.io), which is
 a free excellent tool that I highly recommend. 
@@ -22,15 +24,15 @@ entry is:
 
 ```
 @article{schwarz1978estimating, 
-	author = {Gideon Schwarz},
-	title = {Estimating the dimension of a model},
-	date-added = {2024-07-06 12:10:02 +0200},
-	date-modified = {2024-07-06 12:10:52 +0200},
-	journal = {Annals of Statistics},
-	number = {2},
-	pages = {461--464},
-	volume = {6},
-	year = {1978}}
+  author = {Gideon Schwarz},
+  title = {Estimating the dimension of a model},
+  date-added = {2024-07-06 12:10:02 +0200},
+  date-modified = {2024-07-06 12:10:52 +0200},
+  journal = {Annals of Statistics},
+  number = {2},
+  pages = {461--464},
+  volume = {6},
+  year = {1978}}
 ```
 
 Notes:
@@ -63,10 +65,10 @@ are fewer: `author`, `title`, `booktitle`, `year`. An example entry is:
 
 ```
 @inproceedings{vu2013fantope,
-	author = {Vincent Q. Vu and Juhee Cho and Jing Lei and Karl Rohe},
-	title = {Fantope projection and selection: {A} near-optimal convex relaxation of sparse {PCA}}, 
-	booktitle = {Advances in Neural Information Processing Systems},
-	year = {2013}}
+  author = {Vincent Q. Vu and Juhee Cho and Jing Lei and Karl Rohe},
+  title = {Fantope projection and selection: {A} near-optimal convex relaxation of sparse {PCA}}, 
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {2013}}
 ```
 
 Notes:
@@ -95,11 +97,11 @@ Books are BibTex type `@book`. The standard "must-have" fields are: `author`,
 
 ```
 @book{hastie2009elements,
-	author = {Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome}, 
-	title = {The Elements of Statistical Learning: Data Mining, Inference and Prediction},
-	edition = {second},
-	publisher = {Springer},
-	year = {2009}}
+  author = {Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome}, 
+  title = {The Elements of Statistical Learning: Data Mining, Inference and Prediction},
+  edition = {second},
+  publisher = {Springer},
+  year = {2009}}
 ```
 
 Notes:
@@ -117,12 +119,12 @@ Papers appearing as part of a book or special collection are BibTex type
 
 ```
 @incollection{duchon1977splines,
-	author = {Duchon, Jean}, 
-	title = {Splines minimizing rotation-invariant semi-norms in {Sobolev} spaces},
-	booktitle = {Constructive Theory of Functions of Several Variables}, 
-	publisher = {Springer},
-	pages = {85--100},
-	year = {1977}}
+  author = {Duchon, Jean}, 
+  title = {Splines minimizing rotation-invariant semi-norms in {Sobolev} spaces},
+  booktitle = {Constructive Theory of Functions of Several Variables}, 
+  publisher = {Springer},
+  pages = {85--100},
+  year = {1977}}
 ```
 
 Notes:
@@ -140,10 +142,10 @@ example:
 
 ```
 @unpublished{montanari2023sampling,
-	author = {Andrea Montanari},
-	note = {arXiv: 2305.10690},
-	title = {Sampling, diffusions, and stochastic localization},
-	year = {2023}}
+  author = {Andrea Montanari},
+  note = {arXiv: 2305.10690},
+  title = {Sampling, diffusions, and stochastic localization},
+  year = {2023}}
 ```
 
 Notes:
