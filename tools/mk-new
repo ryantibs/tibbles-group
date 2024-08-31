@@ -8,11 +8,11 @@ else
   mkdir $1/paper/fig
   mkdir $1/paper/arxiv
   mkdir $1/refs
-  cp ../latex/ryantibs.bib $1/notes
-  cp ../latex/ryantibs.tex $1/notes
+  cp ../latex/general.bib $1/notes
+  cp ../latex/macros.tex $1/notes
   cp ../latex/template.tex $1/notes/notes.tex
-  cp ../latex/ryantibs.bib $1/paper
-  cp ../latex/ryantibs.tex $1/paper
+  cp ../latex/general.bib $1/paper
+  cp ../latex/macros.tex $1/paper
   cp ../latex/template.tex $1/paper/paper.tex
   cp cp-bib $1/notes
   cp cp-bib $1/paper
