@@ -26,12 +26,12 @@ entry is:
 @article{schwarz1978estimating, 
   author = {Gideon Schwarz},
   title = {Estimating the dimension of a model},
-  date-added = {2024-07-06 12:10:02 +0200},
-  date-modified = {2024-07-06 12:10:52 +0200},
   journal = {Annals of Statistics},
   number = {2},
   pages = {461--464},
-  volume = {6},
+  volume = {6}, 
+  date-added = {2024-07-06 12:10:02 +0200},
+  date-modified = {2024-07-06 12:10:52 +0200},
   year = {1978}}
 ```
 
@@ -53,8 +53,8 @@ Notes:
   `Annals of Statistics`.
 - Sometimes journals won't have volumes; just omit the `volume` field.
 - Make sure to use two dashes for the page range, as in `461--464`.
-- BibDesk adds `date-added` and `date-modiied` fields; don't worry about it,
-  they won't appear in the rendered bibliography.
+- BibDesk often adds `date-added` and `date-modiied` fields; don't worry about
+  it, they won't appear in the rendered bibliography.
 - You don't need anything else; for example, I never include `publisher` or 
   `abstract` or anything like that.
   
@@ -142,9 +142,9 @@ example:
 
 ```
 @unpublished{montanari2023sampling,
-  author = {Andrea Montanari},
-  note = {arXiv: 2305.10690},
+  author = {Andrea Montanari}, 
   title = {Sampling, diffusions, and stochastic localization},
+  note = {arXiv: 2305.10690},
   year = {2023}}
 ```
 
