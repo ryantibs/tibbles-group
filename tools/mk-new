@@ -18,6 +18,4 @@ else
   cp cp-bib $1/paper
   cp cp-fig $1/paper
   cp cp-arxiv $1/paper
-  cp README.md $1/code
-  cp README.md $1/refs
 fi
