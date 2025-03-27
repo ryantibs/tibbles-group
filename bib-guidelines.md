@@ -1,7 +1,7 @@
 # Bib Guidelines
 
 These are a set of guidelines for the formatting in bib files, particularly
-`general.bib` in the tibbles group repo. These are not "officia rulesl" in any
+`general.bib` in the tibbles group repo. These are not "official rules" in any
 way, they're just my opinion and how I like to maintain the bib files. The
 general rationale is that these are supposed to represent balance between
 something that is simple and easy to maintain, and close to traditional
@@ -155,3 +155,34 @@ Notes:
 - Everything as usual, and the `note` field refers to where you can find it. For
   arXiv papers, I just put the identifier (same with bioRxiv, medRxiv, HAL, and
   so on). 
+
+## Miscellaneous tips
+
+When the `title` is converted to "initial caps" style, you may have to force
+capitalization for certain words using curly braces. What appears in between
+curly braces is printed verbatim---all capitalization is preserved. For example: 
+
+```
+@article{ball1993reverse,
+	author = {Keith Ball},
+	journal = {Discrete \& Computational Geometry},
+	number = {4},
+	pages = {411--420},
+	title = {The reverse isoperimetric problem for {Gaussian} measure},
+	volume = {10},
+	year = {1993}}
+```
+
+As a general rule, I also capitalize the first word after a colon in a title
+(since this part effectively acts as a subtitle), as in:
+
+```
+@article{hoerl1970ridge,
+	author = {Arthur Hoerl and Robert Kennard},
+	journal = {Technometrics},
+	number = 1,
+	pages = {55--67},
+	title = {Ridge regression: {Biased} estimation for nonorthogonal problems},
+	volume = {12},
+	year = {1970}}
+```
