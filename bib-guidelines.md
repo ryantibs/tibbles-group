@@ -164,13 +164,13 @@ curly braces is printed verbatim---all capitalization is preserved. For example:
 
 ```
 @article{ball1993reverse,
-	author = {Keith Ball},
-	journal = {Discrete \& Computational Geometry},
-	number = {4},
-	pages = {411--420},
-	title = {The reverse isoperimetric problem for {Gaussian} measure},
-	volume = {10},
-	year = {1993}}
+  author = {Keith Ball},
+  journal = {Discrete \& Computational Geometry},
+  number = {4},
+  pages = {411--420},
+  title = {The reverse isoperimetric problem for {Gaussian} measure},
+  volume = {10},
+  year = {1993}}
 ```
 
 As a general rule, I also capitalize the first word after a colon in a title
@@ -178,11 +178,11 @@ As a general rule, I also capitalize the first word after a colon in a title
 
 ```
 @article{hoerl1970ridge,
-	author = {Arthur Hoerl and Robert Kennard},
-	journal = {Technometrics},
-	number = 1,
-	pages = {55--67},
-	title = {Ridge regression: {Biased} estimation for nonorthogonal problems},
-	volume = {12},
-	year = {1970}}
+  author = {Arthur Hoerl and Robert Kennard},
+  journal = {Technometrics},
+  number = 1,
+  pages = {55--67},
+  title = {Ridge regression: {Biased} estimation for nonorthogonal problems},
+  volume = {12},
+  year = {1970}}
 ```
