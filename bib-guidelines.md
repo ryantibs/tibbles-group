@@ -180,7 +180,7 @@ As a general rule, I also capitalize the first word after a colon in a title
 @article{hoerl1970ridge,
   author = {Arthur Hoerl and Robert Kennard},
   journal = {Technometrics},
-  number = 1,
+  number = {1},
   pages = {55--67},
   title = {Ridge regression: {Biased} estimation for nonorthogonal problems},
   volume = {12},
