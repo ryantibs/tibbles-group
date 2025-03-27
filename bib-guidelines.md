@@ -44,9 +44,8 @@ Notes:
   had to give up a few times with older Russian papers ...)
 - Middle initials can be used in place of middle names (just do this based on
   whether they're used in the publication itself). Use a period: `Ryan
-  J. Tibshirani`, and not `Ryan J Tibshirani`. 
-- *Personal note: please always use my middle initial, helps distinguish from
-  that other Tibshirani!* 
+  J. Tibshirani`, and not `Ryan J Tibshirani`. *Personal note: please always use
+  my middle initial, helps distinguish from that other Tibshirani!* 
 - The `title` field will be usually translated into "initial caps" style (only
   the first letter will be capitalized). Make sure to use braces to force
   capitalization when you need it, as in `A high-dimensional test for
